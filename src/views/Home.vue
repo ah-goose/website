@@ -1,18 +1,39 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class="logo" src="../assets/ah-goose-dev.jpeg" alt="Ah Goose logo - pixel art of a cool looking goose with sunglasses" />
+    <ul class="desc">
+      <li class="first-li">Indie Games</li>
+      <li>by Agustin Diaz-Barriga</li>
+    </ul>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
 }
 </script>
+
+<style >
+  .home {
+    text-align: center;
+  }
+.logo {
+  
+}
+.desc {
+  font-size: 30px;
+  display: inline-block;
+  max-width: 500px;
+  list-style: none;
+  paddin: 0;
+  margin: 10px;
+  text-align: justify;
+}
+.first-li {
+  font-size: 35;
+  font-weight: 800;
+  color: #3f3f74;
+}
+</style>
