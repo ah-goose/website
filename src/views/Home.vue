@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img class="logo" src="../assets/ah-goose-dev.jpeg" alt="Ah Goose logo - pixel art of a cool looking goose with sunglasses" />
+    <img class="logo" src="https://ahgoose.s3.us-east-2.amazonaws.com/ah-goose-dev.jpeg" alt="Ah Goose logo - pixel art of a cool looking goose with sunglasses" />
     <ul class="desc">
       <li class="first-li">Indie Games</li>
       <li>by Agustin Diaz-Barriga</li>
