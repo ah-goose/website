@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import BlockJumpPrivacyPolicy from '../views/BlockJumpPrivacyPolicy'
 
 Vue.use(VueRouter)
 
@@ -9,6 +10,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/jumpy-block-jump/privacy-policy',
+    name: 'Jumpy Block Jump Privacy Policy',
+    component: BlockJumpPrivacyPolicy
   },
   {
     path: '/about',
